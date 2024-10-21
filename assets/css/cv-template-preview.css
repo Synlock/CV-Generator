@@ -1,0 +1,10 @@
+#template-wrapper {
+    width: 794px;
+    height: 1175px;
+    max-width: none;
+}
+
+#generate-pdf-button {
+    display: block;
+    max-width: fit-content;
+}

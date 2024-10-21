@@ -1,0 +1,199 @@
+/* Reset Elements */
+#cv-container h1,
+#cv-container h2,
+#cv-container h3,
+#cv-container h4,
+#cv-container p,
+#cv-container ul,
+#cv-container li {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: normal;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#cv-container h1,
+#cv-container h2,
+#cv-container h3,
+#cv-container h4 {
+    font-weight: bold;
+}
+
+/* Main Container */
+#cv-container {
+    width: 8.27in;
+    height: 1122px;
+    padding: 0;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    color: #333;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header positioned above everything */
+#cv-container .cv-header {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 66%;
+    height: 120px;
+    background-color: #0073aa;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 10;
+    border: 2px solid #0073aa;
+}
+
+#cv-container .cv-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#cv-container .cv-header h2 {
+    font-size: 16px;
+}
+
+/* Wrapper for Content (Sidebar + Main) */
+#cv-container .cv-content-wrapper {
+    padding-top: 160px;
+    height: 100%;
+    display: flex;
+}
+
+/* Sidebar and Main Content Setup using Flexbox */
+#cv-container .cv-content {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+}
+
+/* Sidebar: 33% Width */
+#cv-container .cv-sidebar {
+    width: 35%;
+    background-color: #aeaeae;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+#cv-container .cv-sidebar h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0073aa;
+}
+
+#cv-container .cv-sidebar h4 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #0073aa;
+    margin: 20px 0 10px 0
+}
+
+#cv-container .cv-sidebar p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#cv-container .cv-sidebar-content-wrapper {
+    margin-top: 150px;
+}
+
+#cv-container .contact-details i {
+    margin-right: 8px;
+    color: #0073aa;
+}
+
+#cv-container .contact-details p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#cv-container .contact-details p a {
+    color: blue;
+}
+
+/* Skills Section */
+#cv-container .core-skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cv-container .core-skills li {
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+}
+
+#cv-container .core-skills i {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #0073aa;
+}
+
+/* Custom Uploaded Icon */
+#cv-container .core-skills img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Main Content: 67% Width */
+#cv-container .cv-main {
+    width: 67%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#cv-container .cv-main h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0073aa;
+}
+
+#cv-container .cv-main p {
+    margin: 10px 0;
+    font-size: 12px;
+    text-align: justify;
+}
+
+#cv-container .cv-main-content-wrapper {
+    margin-top: 150px;
+}
+
+/* Lists in Main Content */
+#cv-container .cv-main ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#cv-container .cv-main ul li {
+    margin-bottom: 5px;
+}
+
+/* Button Styles */
+#cv-container .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#cv-container .button:hover {
+    background-color: #005c8a;
+}

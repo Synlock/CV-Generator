@@ -1,0 +1,14 @@
+/* Delete Button on Admin Page */
+#cvg-admin-delete-button {
+    margin-left: 5px;
+    background-color: rgb(212, 0, 0);
+}
+
+#cvg-admin-delete-button:hover {
+    background-color: rgb(172, 0, 0);
+    cursor: pointer;
+}
+
+#cvg-admin-delete-button:active {
+    background-color: rgb(142, 0, 0);
+}
