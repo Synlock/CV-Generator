@@ -8,7 +8,7 @@ Features
     Customizable Templates: Choose from multiple predefined templates or create your own with custom fields to suit your style and professional background.
     Seamless Integration: Easily integrates into any WordPress site, making CV creation accessible to all users.
     Data Input Fields: Enter personal information, work experience, education, skills, and other relevant details using a user-friendly interface.
-    Real-Time Preview: See your CV take shape in real time as you enter your details, ensuring you have the best presentation possible.
+    Preview: See your CV before exporting to a PDF, ensuring you have the best presentation possible.
     PDF Export: Export your CV to a high-quality PDF format with just one click.
     FontAwesome Icons: Add professional icons such as LinkedIn, GitHub, and phone icons using the integrated FontAwesome support.
 
